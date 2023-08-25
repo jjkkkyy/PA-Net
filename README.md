@@ -1,4 +1,5 @@
-# Code demo for "Machine learning uncovers degradation pathways of perovskite LEDs with multispectral imaging"
+# Physics-aware noise-level-aware image restoration network (PANet)
+Code demo for the paper "Machine learning uncovers degradation pathways of perovskite LEDs with multispectral imaging"
 
 ## System requirements
 
