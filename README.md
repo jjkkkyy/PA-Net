@@ -1,5 +1,6 @@
 # Physics-aware noise-level-aware image restoration network (PANet)
 Code demo for the paper "Machine learning uncovers degradation pathways of perovskite LEDs with multispectral imaging"
+[![DOI](https://zenodo.org/badge/681432757.svg)](https://zenodo.org/badge/latestdoi/681432757)
 
 ## System requirements
 
