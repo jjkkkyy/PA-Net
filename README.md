@@ -13,11 +13,12 @@
 - matplotlib (any version)
 
 ### Tested enviornment
-Linux, CentOS 7
-Windows 10, version 21H1
+- Linux, CentOS 7
+- Windows 10, version 21H1
 
 ### Required hardware
-32GB RAM PC Memory
+- 32GB RAM PC Memory
+- (Optional) 16GB GPU Memory
 
 ## Installation guide (Windows 10)
 
