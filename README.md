@@ -59,7 +59,7 @@ pip install tensorflow_gpu==2.6.2
 
 ## Demo and instruction to use
 
-Launch Jupyter Notebook App and find the demo folder.
+Launch Jupyter Notebook App and locate this repository.
 https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html
 
 Run PANet_blind.ipynb, follow the instruction to reproduce the reported result. 
