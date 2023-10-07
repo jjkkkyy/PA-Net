@@ -1,26 +1,26 @@
 [![DOI](https://zenodo.org/badge/681432757.svg)](https://zenodo.org/badge/latestdoi/681432757)
 
-# Code demo for "Machine learning uncovers degradation pathways of perovskite LEDs with multispectral imaging"
+# Code demo for "Machine learning uncovers degradation pathways of perovskite light-emitting diode with multispectral imaging"
 
 ## System requirements
 
-### Software dependencies
+### Software
 - python 3.6.8
 - h5py 3.1.0
 - scipy 1.5.4
 - joblib 0.14.1
+- matplotlib 3.1.2
 - tensorflow_gpu 2.6.2 (support Cuda 11.2/11.4)
-- matplotlib (any version)
+
+### Hardware
+- 32GB RAM PC Memory
+- (Optional) 16GB GPU Memory
 
 ### Tested enviornment
 - Linux, CentOS 7
 - Windows 11, 22H2
 
-### Required hardware
-- 32GB RAM PC Memory
-- (Optional) 16GB GPU Memory
-
-## Installation guide (Windows 10)
+## Installation guide
 
 ### Install Anaconda (15-30 min)
 https://docs.anaconda.com/anaconda/install/
@@ -59,7 +59,7 @@ pip install tensorflow_gpu==2.6.2
 
 ## Demo and instruction to use
 
-Launch Jupyter Notebook App and locate this repository.
+Launch Jupyter Notebook and locate this repository.
 https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html
 
 Run PANet_blind.ipynb, follow the instruction to reproduce the reported result. 
