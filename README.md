@@ -14,7 +14,7 @@
 
 ### Tested enviornment
 - Linux, CentOS 7
-- Windows 10, version 21H1
+- Windows 11, 22H2
 
 ### Required hardware
 - 32GB RAM PC Memory
