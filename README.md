@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/681432757.svg)](https://zenodo.org/badge/latestdoi/681432757)
+
 # Code demo for "Machine learning uncovers degradation pathways of perovskite LEDs with multispectral imaging"
 
 ## System requirements
