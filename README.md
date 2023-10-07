@@ -1,17 +1,14 @@
-[![DOI](https://zenodo.org/badge/681432757.svg)](https://zenodo.org/badge/latestdoi/681432757)
-# Physics-aware noise-level-aware image restoration network (PANet)
-Code demo for the paper "Machine learning uncovers degradation pathways of perovskite LEDs with multispectral imaging"
+# Code demo for "Machine learning uncovers degradation pathways of perovskite LEDs with multispectral imaging"
 
 ## System requirements
 
 ### Software dependencies
 - python 3.6.8
-- h5py 2.10.0
-- tensorflow 1.14.0
-- keras 2.3.1
-- scipy 1.4.1
-- matplotlib 3.1.2
+- h5py 3.1.0
+- scipy 1.5.4
 - joblib 0.14.1
+- tensorflow_gpu 2.6.2 (support Cuda 11.2/11.4)
+- matplotlib (any version)
 
 ### Tested enviornment
 Linux, CentOS 7
@@ -27,10 +24,10 @@ https://docs.anaconda.com/anaconda/install/
 
 ### Create and activate new enviornment in anaconda prompt (5-10 min)
 ```bash
-conda create -n demo python=3.6.8
+conda create -n (anyname) python=3.6.8
 ```
 ```bash
-conda activate demo
+conda activate (anyname)
 ```
 
 ### Register new enviornment for Jupyter Notebook
@@ -40,24 +37,22 @@ conda install ipykernel
 
 ### Install dependencies through pip
 ```bash
-pip install h5py==2.10.0
-pip install keras==2.3.1
-pip install scipy==1.4.1
+pip install h5py==3.1.0
 pip install matplotlib==3.1.2
+pip install scipy==1.5.4
 pip install joblib==0.14.1
 ```
 
 To install the CPU version of tensorflow:
 ```bash
-pip install tensorflow==1.14.0
+pip install tensorflow==2.6.2
 ```
 
-OR To install the GPU version (which require a working GPU with CUDA 10.0 and cuDNN 7.4 driver):
+OR To install the GPU version (which require a working GPU with CUDA 11.2 or 11.4 with a corresponding cuDNN driver):
 ```bash
-pip install tensorflow-gpu==1.14.0
+pip install tensorflow_gpu==2.6.2
 ```
 
-Install Tensorflow GPU with CUDA 10.0 and cudNN 7.4 for Python on Windows 10: https://medium.com/@hippiedev/install-tensorflow-gpu-with-cuda-10-0-and-cudnn-7-4-for-python-on-windows-10-be95629e4f54
 
 ## Demo and instruction to use
 

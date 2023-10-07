@@ -1,9 +1,4 @@
-import keras.backend as K
-import tensorflow as tf
-
 def spectral_loss(y_true, y_pred):
-    if not K.is_tensor(y_pred):
-        y_pred = K.constant(y_pred)
     y_true = K.cast(y_true, y_pred.dtype)
 
     # Calculate grad
@@ -20,8 +15,6 @@ def spectral_loss(y_true, y_pred):
     return spec_loss
 
 def combined_loss(y_true, y_pred, A=0.1):
-    if not K.is_tensor(y_pred):
-        y_pred = K.constant(y_pred)
     y_true = K.cast(y_true, y_pred.dtype)
 
     spec_loss = spectral_loss(y_true, y_pred)
@@ -31,11 +24,9 @@ def combined_loss(y_true, y_pred, A=0.1):
     return merged_loss
 
 def hallucination_loss(y_true, y_pred):
-    if not K.is_tensor(y_pred):
-        y_pred = K.constant(y_pred)
     y_true = K.cast(y_true, y_pred.dtype)
     den = K.square(y_true + 1) + 0.001
-    weights = tf.div(0.001, den)-0.95
+    weights = tf.divide(0.001, den)-0.95
     weights = K.relu(weights)+1
     normal_mse = K.square(y_pred - y_true)
     weighted_loss = normal_mse * weights

@@ -10,14 +10,14 @@ script_dir = os.path.dirname(os.path.realpath('__file__'))
 def load_H5(directory, need_wavelength=False, keep_dtype = None):
     if need_wavelength is False:
         with h5py.File(directory, 'r') as f:
-            image = f['Cube']['Images'].value
+            image = f['Cube']['Images'][()]
         if keep_dtype is None:
             image = image.astype(np.float64)
         return image
     else:
         with h5py.File(directory, 'r') as f:
-            image = f['Cube']['Images'].value
-            wavelength = f['Cube']['Wavelength'].value
+            image = f['Cube']['Images'][()]
+            wavelength = f['Cube']['Wavelength'][()]
         if keep_dtype is None:
             image = image.astype(np.float64)
             wavelength = wavelength.astype(np.float64)
