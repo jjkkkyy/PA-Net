@@ -1,6 +1,4 @@
-![Static Badge](https://img.shields.io/badge/Journal-Nature%20Machine%20Intelligence-blue?link=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs42256-023-00736-z)
-
-[![DOI](https://zenodo.org/badge/681432757.svg)](https://zenodo.org/badge/latestdoi/681432757)
+![Static Badge](https://img.shields.io/badge/Journal-Nature%20Machine%20Intelligence-blue?link=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs42256-023-00736-z) [![DOI](https://zenodo.org/badge/681432757.svg)](https://zenodo.org/badge/latestdoi/681432757)
 
 # Code for "Machine learning uncovers degradation pathways of perovskite light-emitting diode with multispectral imaging"
 
