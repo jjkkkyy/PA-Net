@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/Journal-Nature%20Machine%20Intelligence-blue?link=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs42256-023-00736-z) [![DOI](https://zenodo.org/badge/681432757.svg)](https://zenodo.org/badge/latestdoi/681432757) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Journal-Nature%20Machine%20Intelligence-blue?link=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs42256-023-00736-z) [![DOI](https://zenodo.org/badge/681432757.svg)](https://zenodo.org/badge/latestdoi/681432757) 
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
 # Code for "Machine learning uncovers degradation pathways of perovskite light-emitting diode with multispectral imaging"
 
