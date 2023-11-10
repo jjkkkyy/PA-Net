@@ -2,6 +2,8 @@
 
 # Code for "Machine learning uncovers degradation pathways of perovskite light-emitting diode with multispectral imaging"
 
+Paper link -> https://www.nature.com/articles/s42256-023-00736-z
+
 ## System requirements
 
 ### Software
