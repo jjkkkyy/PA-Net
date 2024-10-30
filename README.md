@@ -9,7 +9,7 @@ https://www.nature.com/articles/s42256-023-00736-z
 ### Releases
 
 - Version 1.0 (For Python 3.6, Cuda 10.0, and TensorFlow 1.14.0) https://doi.org/10.5281/zenodo.8281088
-- Version 2.0 (For Python 3.6, Cuda 11.2/11.4, and TensorFlow 2.6.2) https://doi.org/10.5281/zenodo.8417653 
+- Version 2.0 (For Python 3.6, Cuda 11.x, and TensorFlow 2.6.2) https://doi.org/10.5281/zenodo.8417653 
 
 ## System requirements
 
